@@ -1,0 +1,93 @@
+body{
+  overflow-x: hidden;
+  background-color:#E4E7EB;
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.header-top{
+	background-color:#25283A;
+}
+#header-top_midlink::before { 
+  content: "Follow Us:";
+  padding-right: 10px;
+}
+#header-top_number::after { 
+  content: "Call:  +923158785878";
+  padding-left: 10px;
+}
+#header-top_email::after { 
+  content: "Email:  team@amafoundation.com";
+    padding-left: 10px;
+  }
+#header-top_midlink i{
+	padding-left: 10px;
+} 
+#navbarNavDropdown ul li a{
+  color:#25283A;
+  font-size: 17px;
+}
+#navbarNavDropdown ul li a:hover{
+  color:#008C00;
+}
+#carouselExampleControls .carousel-caption h2{
+  font-size: 60px;
+}
+.amatext_pics{
+padding: 150px 0px 150px 0px;
+background-color: #E4E7EB;
+}
+.amatext_pics h2 p{
+font-family: Poppins, sans-serif;
+}
+/*donate page css code*/
+.donatepage-section_message{
+  background-color:#2C8E41;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+#donate-form{
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.donatepage-section_country{
+  padding: 70px 0px 70px 0px;
+  background-color: #F8F9FA;
+}
+form #donatebtn{
+   position:relative;
+   top: -80px;
+   width: 725px;
+   background-color: #2C8E41;
+ }
+ /*atoms donate page css code*/
+form #atomsdonatebtn{
+   position:relative;
+   top: -80px;
+   width: 725px;
+   background-color: #2C8E41;
+ }
+/*contact us page code*/
+.contactus-section_message{
+  background-color:#2C8E41;
+  padding-top:25px;
+  padding-bottom:25px;
+}
+.conact-icon1::after { 
+  content: "Khyber Super Market  Contt PKP, Pakistan";
+}
+.conact-icon2::after { 
+  content: "team@amafoundation.com";
+}
+.conact-icon3::after { 
+  content: "+923158785878";
+}
+.conact-icon i{
+ background-color: red;
+}
+/*About us page css code*/
+ section .aboutus-ourstory_text{
+  padding: 100px 0px;
+ }

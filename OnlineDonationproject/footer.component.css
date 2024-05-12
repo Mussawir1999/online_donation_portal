@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+}
+footer{
+    position: absolute;
+    width:100%;
+    color:rgb(194, 187, 187);
+    height: 15vh;
+    
+}
+footer h3{
+    position: absolute;
+    left:30%;
+    top: 20px;
+}
+footer p{
+    position: absolute;
+    left:43%;
+    bottom: 0px;
+}
